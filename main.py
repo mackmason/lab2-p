@@ -24,7 +24,7 @@ def getLetterGrade(grade):
   elif grade < 70.0 and grade >= 60.0:
     return "D"
   else:
-    return "F"
+    return "f"
  
 def run():
   grade = input("Enter your CMPSC 131: ")
